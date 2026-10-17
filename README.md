@@ -5,7 +5,7 @@ A production-style email scheduler and dashboard built for the ReachInbox hiring
 | | |
 |---|---|
 | **Demo video** | https://drive.google.com/file/d/1FabBk0zi_wagD32OkCfPciL6zE3hzmPy/view?usp=sharing |
-| **Live site** | https://reachinbox-scheduler-production-4835.up.railway.app/|
+| **Live site** | https://reachinbox-scheduler-production-4835.up.railway.app|
 | **Author** | `LOCHANA RANGANATH` |
 
 ---
