@@ -7,7 +7,7 @@ const schema = z.object({
   BACKEND_URL: z.string().default('http://localhost:4000'),
   DATABASE_URL: z.string().min(1),
   REDIS_URL: z.string().default('redis://localhost:6379'),
-  ELASTIC_NODE: z.string().default('http://localhost:9200'),
+  ELASTIC_NODE: z.string().default(''),
   JWT_SECRET: z.string().min(16),
   GOOGLE_CLIENT_ID: z.string().default(''),
   GOOGLE_CLIENT_SECRET: z.string().default(''),
