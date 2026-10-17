@@ -5,7 +5,6 @@ A production-style email scheduler and dashboard built for the ReachInbox hiring
 | | |
 |---|---|
 | **Demo video** | `https://drive.google.com/file/d/1FabBk0zi_wagD32OkCfPciL6zE3hzmPy/view?usp=sharing` |
-| **Live site** | `<paste URL here, or delete this row>` |
 | **Author** | `LOCHANA RANGANATH` |
 
 ---
