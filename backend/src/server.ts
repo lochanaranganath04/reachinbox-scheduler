@@ -16,8 +16,8 @@ async function main() {
   await reconcile();
 
   const worker = env.RUN_WORKER === 'true' ? createEmailWorker() : null;
-  const server = createApp().listen(env.PORT, () => {
-    console.log(`[api] listening on :${env.PORT}  (Bull Board: ${env.BACKEND_URL}/admin/queues)`);
+  const server = createApp().listen(env.PORT, '0.0.0.0', () => {
+    console.log(`[api] listening on 0.0.0.0:${env.PORT}  (Bull Board: ${env.BACKEND_URL}/admin/queues)`);
   });
 
   const shutdown = async () => {
